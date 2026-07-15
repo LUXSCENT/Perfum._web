@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LUXSCENT PERFUM</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+<div id="loader">
+    <div class="loader-logo">
+        Bienvenido a LUXSCENT PERFUM
+        <span>Cargando...</span>
+    </div>
+</div>
+
+<header>
+
+<div class="menu-icon" onclick="abrirMenu()">
+☰
+</div>
+
+<h1>👑 LUXSCENT</h1>
+
+<nav id="menu">
+
+<a href="#inicio">Inicio</a>
+<a href="#hombre">Hombre</a>
+<a href="#mujer">Mujer</a>
+<a href="#masvendidos">Más vendidos</a>
+<a href="#contacto">Contacto</a>
+
+</nav>
+
+</header>
+
+<section class="promocion">
+
+<h2>🚚 Entregas Personales</h2>
+
+<p>✅ Perfumes 100% Originales | 🔒 Compra Segura | 📦 Envíos a Tapachula, Tuxtla Chico, Frontera Hidalgo</p>
+
+</section>
+
+<section class="hero" id="inicio">
+
+    <img src="../imagenes/logo.png" alt="LUXSCENT PERFUM" class="logo-principal">
+
+    <h1>LUXSCENT PERFUM</h1>
+
+    <p class="eslogan">
+        Perfumes 100% Originales para Hombre y Mujer
+    </p>
+
+    <p class="descripcion">
+        Descubre fragancias exclusivas con envío a todo México.
+    </p>
+
+    <a href="#hombre">
+        <button class="boton-principal">
+            Explorar Catálogo
+        </button>
+    </a>
+
+    <div class="carrusel-3d">
+
+        <div class="galeria">
+
+            <span style="--i:1"><img src="../imagenes/khamrah.jpg"></span>
+
+            <span style="--i:2"><img src="../imagenes/asad.jpg"></span>
+
+            <span style="--i:3"><img src="../imagenes/9pm.jpg"></span>
+
+            <span style="--i:4"><img src="../imagenes/hawas.jpg"></span>
+
+            <span style="--i:5"><img src="../imagenes/hawas-ice.jpg"></span>
+
+            <span style="--i:6"><img src="../imagenes/mandarin.jpg"></span>
+
+            <span style="--i:7"><img src="../imagenes/valentino-intense.jpg"></span>
+
+            <span style="--i:8"><img src="../imagenes/yara-rosa.jpg"></span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="marcas">
+
+<h2>Nuestras Marcas</h2>
+
+<div class="logos">
+
+<div class="marca">LATTAFA</div>
+
+<div class="marca">RASASI</div>
+
+<div class="marca">AFNAN</div>
+
+<div class="marca">VALENTINO</div>
+
+<div class="marca">CAROLINA HERRERA</div>
+
+<div class="marca">YSL</div>
+
+<div class="marca">DIOR</div>
+
+<div class="marca">LANCÔME</div>
+
+<div class="marca">ARMAF</div>
+
+</div>
+
+</section>
+
+<section class="buscador">
+
+    <h2>Encuentra tu perfume ideal</h2>
+
+    <input type="text" id="buscar" placeholder="Buscar perfume...">
+
+</section>
+
+<section class="titulo">
+
+<h2>👨 Perfumes para Hombre</h2>
+
+</section>
+
+<section class="catalogo" id="hombre">
+
+<div class="producto">
+<img src="../imagenes/khamrah.webp" alt="Khamrah">
+<h3>Lattafa Khamrah</h3>
+<p class="marca">LATTAFA</p>
+<p class="precio">$1,100 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Vainilla • Canela • Ámbar</p>
+<p class="duracion">⏰ 10-12 horas</p>
+<button onclick="comprar('Lattafa Khamrah')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/asad.jpg" alt="Asad">
+<h3>Lattafa Asad</h3>
+<p class="marca">LATTAFA</p>
+<p class="precio">$1,000 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Ámbar • Especias • Madera</p>
+<p class="duracion">⏰ 8-10 horas</p>
+<button onclick="comprar('Lattafa Asad')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/9pm.jpg" alt="9PM">
+<h3>Afnan 9PM</h3>
+<p class="marca">AFNAN</p>
+<p class="precio">$1,050 MXN</p>
+<div class="estrellas">★★★★☆</div>
+<p class="notas">Cítricos • Madera • Musk</p>
+<p class="duracion">⏰ 7-9 horas</p>
+<button onclick="comprar('Afnan 9PM')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/cd417e0e0e38db46541efc3e920c6d25.webp" alt="Mandarin Sky">
+<h3>Armaf Odyssey Mandarin Sky</h3>
+<p class="marca">ARMAF</p>
+<p class="precio">$1,050 MXN</p>
+<div class="estrellas">★★★★☆</div>
+<p class="notas">Mandarina • Cítricos • Madera</p>
+<p class="duracion">⏰ 6-8 horas</p>
+<button onclick="comprar('Armaf Odyssey Mandarin Sky')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/Hawas jpg.jpe" alt="Hawas">
+<h3>Rasasi Hawas For Him</h3>
+<p class="marca">RASASI</p>
+<p class="precio">$1,100 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Frutos • Especias • Ámbar</p>
+<p class="duracion">⏰ 8-10 horas</p>
+<button onclick="comprar('Rasasi Hawas For Him')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/HAWAS KOBRA JPG+.webp" alt="Hawas Kobra">
+<h3>Rasasi Hawas Kobra</h3>
+<p class="marca">RASASI</p>
+<p class="precio">$1,200 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Pino • Especias • Madera</p>
+<p class="duracion">⏰ 9-11 horas</p>
+<button onclick="comprar('Rasasi Hawas Kobra')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/HAWAS ICE JPG.webp" alt="Hawas Ice">
+<h3>Rasasi Hawas Ice</h3>
+<p class="marca">RASASI</p>
+<p class="precio">$1,050 MXN</p>
+<div class="estrellas">★★★★☆</div>
+<p class="notas">Frescor • Cítricos • Musk</p>
+<p class="duracion">⏰ 8-10 horas</p>
+<button onclick="comprar('Rasasi Hawas Ice')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/VALENTINO EDTjpg.jpg" alt="Valentino Uomo Born In Roma EDT">
+<h3>Valentino Uomo Born In Roma EDT</h3>
+<p class="marca">VALENTINO</p>
+<p class="precio">$2,250 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Vetiver • Ámbar • Madera</p>
+<p class="duracion">⏰ 8-10 horas</p>
+<button onclick="comprar('Valentino Uomo Born In Roma EDT')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/valentino-born-in-roma.png" alt="Valentino Uomo Born In Roma Intense">
+<h3>Valentino Uomo Born In Roma Intense</h3>
+<p class="marca">VALENTINO</p>
+<p class="precio">$2,300 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Ámbar • Madera • Especias</p>
+<p class="duracion">⏰ 10-12 horas</p>
+<button onclick="comprar('Valentino Uomo Born In Roma Intense')">🛒 Comprar por WhatsApp</button>
+</div>
+
+</section>
+
+<section class="titulo">
+
+<h2>👩 Perfumes para Mujer</h2>
+
+</section>
+
+<section class="catalogo" id="mujer">
+
+<div class="producto">
+<img src="../imagenes/yara-rosa.png" alt="Yara Rosa">
+<h3>Lattafa Yara Rosa</h3>
+<p class="marca">LATTAFA</p>
+<p class="precio">$1,150 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Frutal • Floral • Vainilla</p>
+<p class="duracion">⏰ 8-10 horas</p>
+<button onclick="comprar('Lattafa Yara Rosa')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/yara-tous.png" alt="Yara Tous">
+<h3>Lattafa Yara Tous</h3>
+<p class="marca">LATTAFA</p>
+<p class="precio">$1,200 MXN</p>
+<div class="estrellas">★★★★☆</div>
+<p class="notas">Floral • Frutal • Dulce</p>
+<p class="duracion">⏰ 7-9 horas</p>
+<button onclick="comprar('Lattafa Yara Tous')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/yara-moi.png" alt="Yara Moi">
+<h3>Lattafa Yara Moi</h3>
+<p class="marca">LATTAFA</p>
+<p class="precio">$1,100 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Floral • Frutal • Crema</p>
+<p class="duracion">⏰ 8-10 horas</p>
+<button onclick="comprar('Lattafa Yara Moi')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/donnaroma.png" alt="Donna Roma">
+<h3>Valentino Donna Born In Roma</h3>
+<p class="marca">VALENTINO</p>
+<p class="precio">$3,150 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Floral • Frutal • Madera</p>
+<p class="duracion">⏰ 8-10 horas</p>
+<button onclick="comprar('Valentino Donna Born In Roma')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/donnaintense.png" alt="Donna Intense">
+<h3>Valentino Donna Born In Roma Intense</h3>
+<p class="marca">VALENTINO</p>
+<p class="precio">$3,200 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Floral • Ámbar • Especias</p>
+<p class="duracion">⏰ 10-12 horas</p>
+<button onclick="comprar('Valentino Donna Born In Roma Intense')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/goodgirl.png" alt="Good Girl">
+<h3>Good Girl</h3>
+<p class="marca">CAROLINA HERRERA</p>
+<p class="precio">$2,600 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Floral • Almendra • Vainilla</p>
+<p class="duracion">⏰ 10-12 horas</p>
+<button onclick="comprar('Good Girl')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/blush.png" alt="Good Girl Blush">
+<h3>Good Girl Blush</h3>
+<p class="marca">CAROLINA HERRERA</p>
+<p class="precio">$2,700 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Rosa • Almendra • Musk</p>
+<p class="duracion">⏰ 9-11 horas</p>
+<button onclick="comprar('Good Girl Blush')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/verygoodgirl.png" alt="Very Good Girl">
+<h3>Very Good Girl</h3>
+<p class="marca">CAROLINA HERRERA</p>
+<p class="precio">$2,850 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Floral • Frutal • Dulce</p>
+<p class="duracion">⏰ 9-11 horas</p>
+<button onclick="comprar('Very Good Girl')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/libre.png" alt="Libre">
+<h3>YSL Libre</h3>
+<p class="marca">YSL</p>
+<p class="precio">$2,600 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Lavanda • Naranja • Musk</p>
+<p class="duracion">⏰ 10-12 horas</p>
+<button onclick="comprar('YSL Libre')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/libreintense.png" alt="Libre Intense">
+<h3>YSL Libre Intense</h3>
+<p class="marca">YSL</p>
+<p class="precio">$1,900 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Floral • Amaderado • Musk</p>
+<p class="duracion">⏰ 10-12 horas</p>
+<button onclick="comprar('YSL Libre Intense')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/missdior.png" alt="Miss Dior">
+<h3>Miss Dior</h3>
+<p class="marca">DIOR</p>
+<p class="precio">$3,200 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Floral • Rosa • Musk</p>
+<p class="duracion">⏰ 9-11 horas</p>
+<button onclick="comprar('Miss Dior')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/jadore.png" alt="J'adore">
+<h3>Dior J'adore</h3>
+<p class="marca">DIOR</p>
+<p class="precio">$3,300 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Floral • Frutal • Crema</p>
+<p class="duracion">⏰ 10-12 horas</p>
+<button onclick="comprar('Dior J&#39;adore')">🛒 Comprar por WhatsApp</button>
+</div>
+
+<div class="producto">
+<img src="../imagenes/lavieestbelle.png" alt="La Vie Est Belle">
+<h3>La Vie Est Belle</h3>
+<p class="marca">LANCÔME</p>
+<p class="precio">$3,200 MXN</p>
+<div class="estrellas">★★★★★</div>
+<p class="notas">Floral • Frutal • Vainilla</p>
+<p class="duracion">⏰ 9-11 horas</p>
+<button onclick="comprar('La Vie Est Belle')">🛒 Comprar por WhatsApp</button>
+</div>
+
+</section>
+
+<section id="masvendidos">
+
+<h2>⭐ Más Vendidos</h2>
+
+<p>Khamrah • Hawas • 9PM • Born In Roma Intense</p>
+
+</section>
+
+<section class="envios">
+
+<h2>¿Por qué comprar en LUXSENT PERFUM?</h2>
+
+<div class="ventajas">
+
+<div>✅ Perfumes 100% Originales</div>
+
+<div>🚚 Envíos a Tapachula, Tuxtla Chico, Frontera Hidalgo</div>
+
+<div>🔒 Compra Segura</div>
+
+<div>💬 Atención por WhatsApp</div>
+
+</div>
+
+</section>
+
+<section class="opiniones">
+
+<h2>Lo que dicen nuestros clientes</h2>
+
+<div class="contenedor-opiniones">
+
+<div class="opinion">
+⭐⭐⭐⭐⭐
+<p>"Excelente servicio y perfumes 100% originales."</p>
+<h4>- Cliente Verificado</h4>
+</div>
+
+<div class="opinion">
+⭐⭐⭐⭐⭐
+<p>"El envío fue rápido y el aroma duró muchísimo."</p>
+<h4>- Cliente Verificado</h4>
+</div>
+
+<div class="opinion">
+⭐⭐⭐⭐⭐
+<p>"Volveré a comprar sin duda."</p>
+<h4>- Cliente Verificado</h4>
+</div>
+
+</div>
+
+</section>
+
+<section class="redes">
+
+<h2>Síguenos en Instagram</h2>
+
+<p>@luxscent._perfum</p>
+
+<a href="https://instagram.com/luxscent._perfum" target="_blank">
+
+<button>📷 Ir a Instagram</button>
+
+</a>
+
+</section>
+
+<section class="opiniones">
+
+    <h2>Opiniones de clientes ⭐</h2>
+
+    <div class="opiniones-container">
+
+        <div class="opinion">
+
+            <div class="estrellas">
+                ⭐⭐⭐⭐⭐
+            </div>
+
+            <p>
+                "Excelente aroma, el perfume llegó rápido y con buena presentación."
+            </p>
+
+            <h3>
+                - Cliente
+            </h3>
+
+        </div>
+
+        <div class="opinion">
+
+            <div class="estrellas">
+                ⭐⭐⭐⭐⭐
+            </div>
+
+            <p>
+                "La calidad del perfume es increíble, volvería a comprar."
+            </p>
+
+            <h3>
+                - Cliente
+            </h3>
+
+        </div>
+
+        <div class="opinion">
+
+            <div class="estrellas">
+                ⭐⭐⭐⭐⭐
+            </div>
+
+            <p>
+                "Muy buena atención y perfumes con aromas únicos."
+            </p>
+
+            <h3>
+                - Cliente
+            </h3>
+
+        </div>
+
+    </div>
+
+</section>
+
+<a href="#inicio" class="subir">⬆</a>
+
+<footer id="contacto">
+
+<h2>LUXSCENT PERFUM</h2>
+
+<p>📱 Instagram</p>
+
+<p>💬 WhatsApp</p>
+
+<p>📦 Envíos a Tapachula, Tuxtla Chico, Frontera Hidalgo</p>
+
+</footer>
+
+<footer>
+
+<img src="../imagenes/logo.png" alt="LUXSCENT PERFUM" class="logo-principal logo-footer">
+
+<p>Perfumes que dejan huella</p>
+
+<div class="redes">
+
+<a>Instagram</a>
+<a>WhatsApp</a>
+<a>Facebook</a>
+
+</div>
+
+<p>
+© 2026 Todos los derechos reservados
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+ScrollReveal().reveal('.card, section, h1, h2, p, .btn', {
+    duration: 300,
+    distance: '25px',
+    origin: 'bottom',
+    interval: 80,
+    reset: false
+});
+</script>
+
+<canvas id="particles"></canvas>
+
+<script>
+const canvas = document.getElementById("particles");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let particles = [];
+
+for(let i = 0; i < 80; i++){
+    particles.push({
+        x: Math.random()*canvas.width,
+        y: Math.random()*canvas.height,
+        size: Math.random()*3+1,
+        speed: Math.random()*1+0.2
+    });
+}
+
+function animateParticles(){
+
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+
+    ctx.fillStyle = "#d4af37";
+
+    particles.forEach(p=>{
+
+        ctx.beginPath();
+        ctx.arc(p.x,p.y,p.size,0,Math.PI*2);
+        ctx.fill();
+
+        p.y -= p.speed;
+
+        if(p.y < 0){
+            p.y = canvas.height;
+        }
+
+    });
+
+    requestAnimationFrame(animateParticles);
+}
+
+animateParticles();
+
+
+window.addEventListener("resize",()=>{
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+});
+</script>
+
+<a href="https://wa.me/529845237111?text=Hola,%20me%20interesan%20sus%20perfumes." class="whatsapp" target="_blank">
+    💬
+</a>
+
+<script>
+window.onload=function(){
+setTimeout(()=>{
+document.getElementById("loader").style.display="none";
+},1500);
+}
+
+function abrirMenu(){
+
+let menu=document.getElementById("menu");
+
+if(menu.style.display==="flex"){
+
+menu.style.display="none";
+
+}else{
+
+menu.style.display="flex";
+
+}
+
+}
+</script>
+
+<a href="https://wa.me/+529845237111" class="whatsapp" target="_blank">
+    💬
+</a>
+
+</body>
+
+</html>
